@@ -1,0 +1,23 @@
+{
+  "name": "koa_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.12.0",
+    "koa-body": "^4.1.3",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4"
+  }
+}
